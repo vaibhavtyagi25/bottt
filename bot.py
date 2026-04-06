@@ -1,4 +1,6 @@
-l_count, len(participants))
+import discord
+from discord import app_commands
+from discord.ext import commands, tasks
 
     if not participants:
         await interaction.followup.send(
